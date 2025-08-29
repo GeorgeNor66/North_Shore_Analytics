@@ -74,3 +74,29 @@ h1, h2 {
     background-color: #333;
     color: white;
 }
+ ```css
+    /* Hero Section Styles */
+    .hero-section {
+        background-image: url('images/hero-background.jpg'); /* <-- CHANGE THIS if your image name is different */
+        background-size: cover; /* Cover the entire area */
+        background-position: center; /* Center the image */
+        height: 60vh; /* Make it take up 60% of the viewport height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    .hero-text h1 {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+        color: white; /* Overrides the default blue h1 color */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow to make text readable */
+    }
+
+    .hero-text p {
+        font-size: 1.5rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow to make text readable */
+    }
+    ```
