@@ -1,0 +1,11 @@
+```css
+body {
+    background-color: #f4f4f4; /* A light gray background */
+    color: #333;             /* A dark gray for the text */
+    font-family: sans-serif;  /* A clean, modern font */
+    line-height: 1.6;         /* More spacing between lines of text */
+}
+
+h1 {
+    color: #005a9c; /* A nice blue color for the main heading */
+}
