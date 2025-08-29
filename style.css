@@ -1,11 +1,76 @@
 ```css
+/* General Body Styles */
 body {
-    background-color: #f4f4f4; /* A light gray background */
-    color: #333;             /* A dark gray for the text */
-    font-family: sans-serif;  /* A clean, modern font */
-    line-height: 1.6;         /* More spacing between lines of text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-h1 {
-    color: #005a9c; /* A nice blue color for the main heading */
+/* Header and Navigation Bar */
+.main-header {
+    background-color: #005a9c; /* Blue background */
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Page Sections */
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto; /* Add space above and below main content */
+}
+
+.welcome-section, .services-section {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #005a9c;
+}
+
+/* Footer */
+.main-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
 }
